@@ -1,0 +1,31 @@
+h2{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    color: #2308a0;
+ 
+}
+nav{
+    float: right;
+}
+section{
+    width: 70%;
+    float: left;
+}
+article {
+    border-color: black;
+    border: 1px;
+    border-style: dotted;
+}
+footer{
+    clear: both;
+}  
+#webpg{
+    background-color: rgb(228, 209, 209);
+}
+
+*{
+    color: rgb(7, 7, 19);
+}
+.classid{
+    color: blueviolet;
+}
