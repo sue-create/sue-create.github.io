@@ -3,109 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LogofS</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #ffffff;
-      color: #333;
-    }
-    header {
-      background: #f8f8f8;
-      padding: 1rem;
-      text-align: center;
-      border-bottom: 1px solid #ddd;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      color: #333;
-      font-weight: bold;
-    }
-    nav a:hover {
-      color: #007acc;
-    }
-    section {
-      padding: 60px 20px;
-      max-width: 800px;
-      margin: auto;
-    }
-    h2 {
-      border-bottom: 2px solid #eee;
-      padding-bottom: 10px;
-    }
-    .highlight {
-      background-color: #f0f4f8;
-      padding: 100px 20px;
-      text-align: center;
-    }
-    .highlight h1 {
-      font-size: 2.5rem;
-      margin: 0;
-    }
-    .highlight h1:last-child {
-      color: #007acc;
-    }
-    .highlight p {
-      margin-top: 20px;
-      color: #555;
-    }
-  </style>
+  <title>Log of S</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <header>
+    <h1>Log of S</h1>
     <nav>
-      <a href="#booklog">Booklog</a>
-      <a href="#artlogue">Artlogue</a>
-      <a href="#repository">Repository</a>
-      <a href="#archive">Archive</a>
+      <a href="booklog.html">Booklog</a>
+      <a href="artlogue.html">Artlogue</a>
+      <a href="repository.html">Repository</a>
+      <a href="archive.html">Archive</a>
     </nav>
   </header>
 
   <section class="highlight">
+    <h2>Log of S</h2>
     <h1>예측이 어려우면,</h1>
     <h1>기민하게 대응하자.</h1>
     <p>단순함 속에 집중된 선택을 담은 공간</p>
-  </section>
-
-  <section id="booklog">
-    <h2>Booklog</h2>
-    <p>읽고 느낀 책의 문장과 생각을 기록합니다.</p>
-    <h3>『어른의 문장력』 – 유선경</h3>
-    <blockquote>“좋은 글이란 머리가 아닌 가슴으로 쓴 글이다.”</blockquote>
-    <p>이 문장을 읽고 나서, 글을 쓸 때 더 솔직해지기로 다짐했다. 머리로만 쓰려는 습관을 돌아보게 된 문장.</p>
-  </section>
-
-  <section id="artlogue">
-    <h2>Artlogue</h2>
-    <p>그림을 보고, 해석하고, 작가의 이야기를 담아냅니다.</p>
-    <h3>고흐 – 별이 빛나는 밤</h3>
-    <p>
-      별빛과 휘몰아치는 하늘, 그리고 고요한 마을의 대비가 인상적이다.  
-      고흐는 정신병원에서 이 그림을 그렸다고 한다. 그의 내면의 소용돌이를 하늘에 담은 듯한 표현이 깊은 울림을 준다.
-    </p>
-  </section>
-
-  <section id="repository">
-    <h2>Repository</h2>
-    <p>작업 중인 코드, 아이디어, 기술 메모를 정리합니다.</p>
-    <h3>🔹 Python - 리스트 중복 제거</h3>
-    <pre><code>unique_items = list(set(my_list))</code></pre>
-    <p>가장 간단한 중복 제거 방법. 하지만 순서를 유지하고 싶다면 `dict.fromkeys()` 또는 리스트 컴프리헨션을 써야 한다.</p>
-  </section>
-
-  <section id="archive">
-    <h2>Archive</h2>
-    <p>참고했던 자료, 유용한 링크, 기록해두고 싶은 지식의 모음입니다.</p>
-    <ul>
-      <li><a href="https://tympanus.net/codrops/">🎨 Codrops</a> – 웹디자인 레이아웃 아이디어</li>
-      <li><a href="https://www.notion.so">📝 Notion</a> – 개인 정리 노트</li>
-    </ul>
   </section>
 </body>
 </html>
